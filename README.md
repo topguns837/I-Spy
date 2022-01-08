@@ -32,8 +32,7 @@ libraries/modules like stopwords and Tf-Idf vectorization for data cleaning .
 
 ## Tools Used
 - Canva
-
-- Figma
+- - Figma
 
 
 
@@ -54,8 +53,3 @@ libraries/modules like stopwords and Tf-Idf vectorization for data cleaning .
 - DM discord server owners directly regarding frequent offenders
 
 - Devise a system to monitor and report explicit nicknames used by community members
-
-
-
-
-
