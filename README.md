@@ -46,9 +46,13 @@ Images : https://undraw.co/
 
 ## Future Scope
 Improve model accuracy
+
 Optimize the method to search for NSFW links
+
 Scan NSFW media shared from local system (not in form of link)
+
 DM discord server owners directly regarding frequent offenders
+
 Devise a system to monitor and report explicit nicknames used by community members
 
 
