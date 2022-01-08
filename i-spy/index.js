@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 //const fetch = require("./node_modules/node-fetch/src/index.js ")
 //const fetch = require("node-fetch")
-import Discord from "discord.js";
+import Discord, { Message } from "discord.js";
 //const Discord = require("discord.js")
 const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]})
 
@@ -54,8 +54,10 @@ client.on("messageCreate", msg => {
           api_url = api_url + msg.content;
 
           apiname = apiurl.replaceAll(' ', '_');
-          
+
           const data = getapi(apiname);
+
+          msg.reply(data);
         }
 })
 
@@ -79,7 +81,7 @@ async function getapi(url) {
 
     // Storing data in form of JSON
     var data = await response.json();
-    console.log(data.Probability);
+    console.log(data);
     return data ;
 
 }
