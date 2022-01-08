@@ -16,44 +16,44 @@ NLP hate speech detection model. We used a basic Logistic Regression model for o
 libraries/modules like stopwords and Tf-Idf vectorization for data cleaning .
 
 ## Technologies Used
-JavaScript
+- JavaScript
 
-Python
+- Python
 
-Machine Learning
+- Machine Learning
 
-Flask
+- Flask
 
-Node.js
+- Node.js
 
-HTML5
+- HTML5
 
-CSS3
+- CSS3
 
 ## Tools Used
-Canva
+- Canva
 
-Figma
+- Figma
 
 
 
 ## Credits
-Codepen (Background Effect) : https://codepen.io/saransh/pen/BKJun
+- Animated Background Effect : [Codepen](https://codepen.io/saransh/pen/BKJun)
 
-Font : Google Font](https://fonts.google.com/
+- Font : [Google Font](https://fonts.google.com/)
 
-Images : https://undraw.co/
+- Images : [Undraw](https://undraw.co/)
 
 ## Future Scope
-Improve model accuracy
+- Improve model accuracy
 
-Optimize the method to search for NSFW links
+- Optimize the method to search for NSFW links
 
-Scan NSFW media shared from local system (not in form of link)
+- Scan NSFW media shared from local system (not in form of link)
 
-DM discord server owners directly regarding frequent offenders
+- DM discord server owners directly regarding frequent offenders
 
-Devise a system to monitor and report explicit nicknames used by community members
+- Devise a system to monitor and report explicit nicknames used by community members
 
 
 
