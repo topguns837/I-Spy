@@ -6,7 +6,11 @@ import Discord from "discord.js";
 const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]})
 
 const api_url = 
-     "http://127.0.0.1:5000/name/3/0/13/1/0/5" ;
+     "http://127.0.0.1:5000/" ;
+
+api_url = api_url + msg.content;
+
+const apiname = apiurl.replaceAll(' ', '_');
 
 
 client.on("ready", () => {
@@ -14,7 +18,7 @@ client.on("ready", () => {
 })
 
 client.on("messageCreate", msg => {
-  const data = getapi(api_url);
+  const data = getapi(apiname);
   if (msg.author.bot) return
   if (msg.content === "hi") {
     msg.reply("hello");
