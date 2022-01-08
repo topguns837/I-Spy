@@ -5,12 +5,11 @@ import Discord from "discord.js";
 //const Discord = require("discord.js")
 const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]})
 
-const api_url = 
+let api_url = 
      "http://127.0.0.1:5000/" ;
 
-api_url = api_url + msg.content;
 
-const apiname = apiurl.replaceAll(' ', '_');
+
 
 
 client.on("ready", () => {
@@ -18,7 +17,7 @@ client.on("ready", () => {
 })
 
 client.on("messageCreate", msg => {
-  const data = getapi(apiname);
+  
   if (msg.author.bot) return
   if (msg.content === "hi") {
     msg.reply("hello");
@@ -32,6 +31,7 @@ client.on("messageCreate", msg => {
 //nsfw link filtering
 var arr = ["pornhub", "redtube", "xvideo", "xhamster", "xnxx"];
 
+let apiname;
 client.on("messageCreate", msg => {
       if (msg.author.bot) return
       const link = msg.content;
@@ -49,6 +49,13 @@ client.on("messageCreate", msg => {
         if(count) {
             msg.reply("⚠️  This message is inappropriate and goes against the community guidelines. PLease delete it or else strict actions will be taken. ⚠️");
           } 
+        }
+        else {
+          api_url = api_url + msg.content;
+
+          apiname = apiurl.replaceAll(' ', '_');
+          
+          const data = getapi(apiname);
         }
 })
 
