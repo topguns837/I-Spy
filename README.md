@@ -8,7 +8,7 @@ I-spy is the one stop solution to monitor your discord servers and twitter handl
 
 ## What problem does it solve ?
 Since the boom of the internet, we have seen an exponential rise in spread of foul language and hate-speech across all social media platforms. This is an honest effort to 
-filter what you see and keep your loved ones gaurded against venom spewed by keyboard demons. All in all, this will be a one stop solution to all your 
+filter what you see and keep your loved ones gaurded against venom spewed by keyboard demons. Don't fret about hateful/NSFW content because we got your back! 
 
 ## How does it work ?
 We used a publicly available Kaggle dataset (https://www.kaggle.com/vkrahul/twitter-hate-speech?select=train_E6oV3lV.csv ) for developing an 
@@ -17,15 +17,22 @@ libraries/modules like stopwords and Tf-Idf vectorization for data cleaning .
 
 ## Technologies Used
 JavaScript
+
 Python
+
 Machine Learning
+
 Flask
+
 Node.js
+
 HTML5
+
 CSS3
 
 ## Tools Used
 Canva
+
 Figma
 
 
