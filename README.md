@@ -1,4 +1,8 @@
 # 'I-Spy' is an open innovation project
+<hr>
+
+<img src = "https://github.com/topguns837/I-Spy/blob/main/assests/i-spy-screens.png">
+</hr>
 
 ## What is 'I-Spy' ?
 I-Spy is a bot which keeps a check on foul language, hate-speech and NSFW content on platforms like discord and twitter.
