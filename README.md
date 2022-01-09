@@ -57,3 +57,7 @@ libraries/modules like stopwords and Tf-Idf vectorization for data cleaning .
 - DM discord server owners directly regarding frequent offenders
 
 - Devise a system to monitor and report explicit nicknames used by community members
+
+- Deploy our API and model so that other developers can use and improve our service
+
+- Get an official API from Twitter and use it instead of Puppeteer
